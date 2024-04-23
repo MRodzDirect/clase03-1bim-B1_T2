@@ -12,9 +12,10 @@ package manejoclases;
 public class Ejecutable {
 
     public static void main(String[] args) {
-        Hospital hospital = new Hospital();
+        // Todos estos objetos estan correctamente declarados
+        Hospital hospital = new Hospital(); // 
         Hospital h2 = new Hospital();
-        Hospital hospitalLoja = new Hospital();
-        Hospital hospital_loja = new Hospital();
+        Hospital hospitalLoja = new Hospital(); // Mucho java → Upper camel case
+        Hospital hospital_loja = new Hospital(); // Mucho python → ...
     }
 }
