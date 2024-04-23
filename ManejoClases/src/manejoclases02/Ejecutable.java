@@ -18,5 +18,9 @@ public class Ejecutable {
         // Se presenta valores en pantalla
         System.out.printf("%s - %d - %.2f\n", hospital.nombre,
                 hospital.numeroCamas, hospital.presupuesto);
+        
+        
+        // Entonces... Para poder acceder a los atributos, usamos metodos publicos set y get.
+        
     }
 }
