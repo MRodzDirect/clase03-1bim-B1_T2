@@ -6,7 +6,7 @@
 package manejoclases02;
 
 public class Hospital {
-    private String nombre;
-    private int numeroCamas;
-    private double presupuesto;
+    private String nombre; // **private** → Solo pueden acceder a los objetos dentro de la clase
+    private int numeroCamas; // **public** → Todos los objetos de distintos paquetes y clases pueden acceder
+    private double presupuesto; // **protected** → ...
 }
