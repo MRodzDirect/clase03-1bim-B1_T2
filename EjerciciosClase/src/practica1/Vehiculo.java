@@ -65,5 +65,9 @@ public class Vehiculo {
     public String getName(){
         return this.name;
 }
+
+    public String getColor() {
+        return this.color; 
+    }
     
 }
